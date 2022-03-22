@@ -202,6 +202,7 @@ namespace PasswordManager
                         Console.WriteLine("Kolla information om ditt konto!");
                         Console.ResetColor();
                         Console.WriteLine("Inloggningsstatus: ");
+                    //Här kör vi kod för information om användaren
                         if (loggedIn == true)
                         {
                             Console.WriteLine("Inloggad");
@@ -221,6 +222,7 @@ namespace PasswordManager
 
                     case "4":
                     case "ändra":
+                    // Här kör vi kod för att ändra användarnamn
                         Console.Clear();
                         Console.WriteLine("Ändra användarnamn!");
                         Console.WriteLine("Vill du byta användarnamn (klicka y/Ja för ja och n/nej för nej)");
@@ -263,6 +265,7 @@ namespace PasswordManager
                         
                     case "5":
                     case "avsluta":
+                    // Här avslutar man programmet.
                     return;
                    
                  }
